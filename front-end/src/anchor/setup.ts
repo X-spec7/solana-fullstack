@@ -1,6 +1,7 @@
 import { IdlAccounts, Program } from "@coral-xyz/anchor";
 import { IDL, Counter } from "./idl";
 import { clusterApiUrl, Connection, PublicKey } from "@solana/web3.js";
+import { Buffer } from "buffer";
  
 const programId = new PublicKey("5i73FJHHEvLJgM2Hoz6e8RQX261FmNfCvCWVHurZ1QvB");
 const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
